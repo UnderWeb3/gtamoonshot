@@ -4,7 +4,7 @@ export const Team = (props) => {
 
 
   // URL de Twitter
-  const twitterUrl = 'https://x.com/GTA_VI_Gorilla';
+
 
   const borderStyles = {
     border: '2px solid black' // Especifica el grosor, el estilo y el color del borde
