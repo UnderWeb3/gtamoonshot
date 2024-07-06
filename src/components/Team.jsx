@@ -17,23 +17,18 @@ export const Team = (props) => {
           <h2>CONTRACT ADDRESS</h2>
           <div className="container-contract" style={borderStyles}>
             <h3>
-              GTAeMLFp5YqqmujTx3sWQy4z1govfvdt47KiNoYJE2Gn
+              3zVmcnazV5GEV9JeYthZnN7cZGUdbtp3MsohCiNp6Fyx
             </h3>
           </div>
           {/* Icono de Solscan vinculado a la dirección del contrato del token */}
           <div className="contract-address" style={{ display: 'inline-block', marginRight: '10px', marginTop: '10px' }}>
-            <a href={`https://solscan.io/token/GTAeMLFp5YqqmujTx3sWQy4z1govfvdt47KiNoYJE2Gn`} target="_blank" rel="noopener noreferrer">
-              <img src="/img/solscan-icon.png" alt="Solscan" width={30} height={30} />
+            <a href={`https://https://dexscreener.com/`} target="_blank" rel="noopener noreferrer">
+              <img src="/img/dexlogo.png" alt="Solscan" width={30} height={30} />
             </a>
           </div>
           {/* Icono de Twitter vinculado a la URL de Twitter */}
-          <div className="twitter-link" style={{ display: 'inline-block' }}>
-            <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
-            <img src="/img/twitter-icon.png" alt="Twitter" width={30} height={30} />
-            </a>
-          </div>
           <div className="buy-token" style={{ marginTop: '15px'}}>
-            <a href="https://jup.ag/swap/GTAeMLFp5YqqmujTx3sWQy4z1govfvdt47KiNoYJE2Gn-USDC" className="btn-custom">
+            <a href="https://dexscreener.com/solana/3zvmcnazv5gev9jeythznn7czgudbtp3msohcinp6fyx" className="btn-custom">
               $BUY GTA-VI TOKEN
             </a>
           </div>
